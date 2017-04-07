@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>false</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <collection>x_snc_media_librar_loan</collection>
+        <condition/>
+        <content_type>text/html</content_type>
+        <description/>
+        <event_name>x_snc_media_librar.loan_due</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>event</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<div style="color: #999999; font-size: 12px;">
+<div><span style="color: #999999;">&lt;div&gt;Your&nbsp;loaned&nbsp;item&nbsp;${loaned_item.media.title}&nbsp;is&nbsp;due&nbsp;back&nbsp;on&nbsp;${due_date}.&nbsp;In&nbsp;order&nbsp;to&nbsp;mark&nbsp;this&nbsp;item&nbsp;returned,&nbsp;please&nbsp;visit&nbsp;here:&nbsp;${URI_REF}.</span></div>
+<div><span style="color: #999999;">&lt;/div&gt;</span></div>
+</div>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Loan Due Back</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>loaned_to</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>${loaned_item.media.title} is due soon</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-04-07 14:52:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8ac18e2451ca32007f446637134c60a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Loan Due Back</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Media Library" source="x_snc_media_librar">3458a92c518a32007f446637134c6055</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Media Library">3458a92c518a32007f446637134c6055</sys_scope>
+        <sys_update_name>sysevent_email_action_8ac18e2451ca32007f446637134c60a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-04-07 14:54:08</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>
