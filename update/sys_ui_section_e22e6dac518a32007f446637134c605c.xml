@@ -2,184 +2,86 @@
 <record_update>
     <sys_ui_section caption="" section_id="e22e6dac518a32007f446637134c605c" sys_domain="global" table="x_snc_media_librar_loan" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>number</element>
+            <element>loaned_item</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>3e0f65ec518a32007f446637134c6000</sys_id>
+            <sys_created_on>2017-04-07 13:52:19</sys_created_on>
+            <sys_id>8814fd2051ca32007f446637134c60c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
+            <sys_updated_on>2017-04-07 13:52:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>opened_at</element>
+            <element>loaned_to</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>be0f65ec518a32007f446637134c6000</sys_id>
+            <sys_created_on>2017-04-07 13:52:19</sys_created_on>
+            <sys_id>0c14fd2051ca32007f446637134c60c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>assigned_to</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>320f65ec518a32007f446637134c6001</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>cmdb_ci</element>
-            <position>3</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>b20f65ec518a32007f446637134c6001</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>active</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>360f65ec518a32007f446637134c6001</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
+            <sys_updated_on>2017-04-07 13:52:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>b60f65ec518a32007f446637134c6001</sys_id>
+            <sys_created_on>2017-04-07 13:52:19</sys_created_on>
+            <sys_id>8c14fd2051ca32007f446637134c60c5</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
+            <sys_updated_on>2017-04-07 13:52:19</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>priority</element>
-            <position>6</position>
+            <element>opened_at</element>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>3a0f65ec518a32007f446637134c6001</sys_id>
+            <sys_created_on>2017-04-07 13:52:19</sys_created_on>
+            <sys_id>0014fd2051ca32007f446637134c60c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
+            <sys_updated_on>2017-04-07 13:52:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>state</element>
-            <position>7</position>
+            <element>due_date</element>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>ba0f65ec518a32007f446637134c6001</sys_id>
+            <sys_created_on>2017-04-07 13:52:19</sys_created_on>
+            <sys_id>8014fd2051ca32007f446637134c60c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
+            <sys_updated_on>2017-04-07 13:52:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>parent</element>
-            <position>8</position>
+            <element>active</element>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>3e0f65ec518a32007f446637134c6001</sys_id>
+            <sys_created_on>2017-04-07 13:52:19</sys_created_on>
+            <sys_id>0414fd2051ca32007f446637134c60c6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>be0f65ec518a32007f446637134c6001</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
-            <sys_user/>
-            <type>.end_split</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>short_description</element>
-            <position>10</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>320f65ec518a32007f446637134c6002</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>description</element>
-            <position>11</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>b20f65ec518a32007f446637134c6002</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>work_notes</element>
-            <position>12</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-04-07 13:30:23</sys_created_on>
-            <sys_id>360f65ec518a32007f446637134c6002</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_snc_media_librar_loan" sys_domain="global" view="Default view">e22e6dac518a32007f446637134c605c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-04-07 13:30:23</sys_updated_on>
+            <sys_updated_on>2017-04-07 13:52:19</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

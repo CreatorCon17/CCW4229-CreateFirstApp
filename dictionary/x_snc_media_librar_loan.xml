@@ -3,6 +3,5 @@
     <element extends="task" label="Loan" max_length="40" name="x_snc_media_librar_loan" type="collection">
         <element display="true" label="Loaned item" max_length="32" name="loaned_item" reference="x_snc_media_librar_copy" type="reference"/>
         <element label="Loaned to" max_length="32" name="loaned_to" reference="sys_user" type="reference"/>
-        <element label="Loan date" max_length="40" name="loan_date" type="glide_date"/>
     </element>
 </database>
