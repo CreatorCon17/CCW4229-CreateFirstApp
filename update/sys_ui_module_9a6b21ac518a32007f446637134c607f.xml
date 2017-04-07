@@ -4,8 +4,8 @@
         <active>true</active>
         <application display_value="Media Library">fcb9e56c518a32007f446637134c606b</application>
         <filter/>
-        <name>Copys</name>
-        <order/>
+        <name>Copies</name>
+        <order>200</order>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
         <roles>x_snc_media_librar.copy_user</roles>
@@ -16,15 +16,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9a6b21ac518a32007f446637134c607f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Copys</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Copies</sys_name>
         <sys_package display_value="Media Library" source="x_snc_media_librar">3458a92c518a32007f446637134c6055</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Media Library">3458a92c518a32007f446637134c6055</sys_scope>
         <sys_update_name>sys_ui_module_9a6b21ac518a32007f446637134c607f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-04-07 13:14:30</sys_updated_on>
+        <sys_updated_on>2017-04-07 14:20:37</sys_updated_on>
         <table>x_snc_media_librar_copy</table>
         <uncancelable>false</uncancelable>
         <view_name/>
